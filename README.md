@@ -1,22 +1,23 @@
 # ref-adamw-mini-ScheduleFree
 "Ref" stands for both "Refine" and "Reflex" , self-evolving, self-supervised, reinforcement learning
 
+これは試験中のoptimizerです(意図せぬ動作をする場合があります)
 
-Ref-AdamW-mini-SF
+#Ref-AdamW-mini-SF
 
-AdamW に基づいた軽量かつスケジューリング不要な最適化手法 — 自動学習率調整＆AMPサポート対応。
+**AdamW に基づいた軽量かつスケジューリング不要な最適化手法 — 自動学習率調整＆AMPサポート対応。
 
 このオプティマイザは、AdamW-mini-SF を拡張し、以下の特徴を持ちます：
 
-    - 👑 AdamWに備わるemaを利用し中盤にモデルの保持する特徴を濃く反映することで終盤に詳細を多く学ぶ
-    - 🆒 特徴を反映するのにVRAM負荷等はなく過学習などを抑制できるようパラメーターを最適化
-    - 👌 自己進化的な要素が新しい学習ダイナミクスをもたらす可能性があります(未検証)
+- 👑 **AdamWに備わるemaを利用し中盤にモデルの保持する特徴を濃く反映することで終盤に詳細を多く学ぶ
+- 🆒 **特徴を反映するのにVRAM負荷等はなく過学習などを抑制できるようパラメーターを最適化
+- 👌 **自己進化的な要素が新しい学習ダイナミクスをもたらす可能性があります(未検証)
     
-    以下は AdamW-mini-SF と共通	
-    - 🚀 省メモリな状態管理：モーメント（m, v）を低精度（float16 や bfloat16）で保持
-    - 🧠 Schedule-Free な学習率調整：スムーズな勾配ノルムを追跡し、lr を動的に調整（スケジューラー不要）
-    - 🛡️ 分離されたWeight Decay（AdamW形式）：勾配とは独立した正則化処理
-    - ⚙️ AMP / mixed precision に対応：パラメータの dtype を自動検出し、torch.amp とシームレスに連携可能
+ 以下は AdamW-mini-SF と共通	
+- 🚀 **省メモリな状態管理：モーメント（m, v）を低精度（float16 や bfloat16）で保持
+- 🧠 **Schedule-Free な学習率調整：スムーズな勾配ノルムを追跡し、lr を動的に調整（スケジューラー不要）
+- 🛡️ **分離されたWeight Decay（AdamW形式）：勾配とは独立した正則化処理
+- ⚙️ **AMP / mixed precision に対応：パラメータの dtype を自動検出し、torch.amp とシームレスに連携可能
 
 ライセンス Apache License 2.0 — 詳細は LICENSE をご覧ください。
 
