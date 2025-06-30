@@ -3,7 +3,7 @@
 
 これは試験中のoptimizerです(意図せぬ動作をする場合があります)
 
-#Ref-AdamW-mini-SF
+# Ref-AdamW-mini-SF
 
 **AdamW に基づいた軽量かつスケジューリング不要な最適化手法 — 自動学習率調整＆AMPサポート対応。**
 
