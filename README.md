@@ -23,6 +23,9 @@
 
 🤖 GitHub Copilot と人間の好奇心のコラボで誕生しました。
 
+![Ref-AdamW-mini-ScheduleFree00](https://github.com/muooon/ref-adamw-mini-ScheduleFree/blob/main/step-test00.png?raw=true)
+![Ref-AdamW-mini-ScheduleFree01](https://github.com/muooon/ref-adamw-mini-ScheduleFree/blob/main/step-test01.png?raw=true)
+
 ## 謝辞(Acknowledgments)
 
 本プロジェクトは、[@zyushun](https://github.com/zyushun) 氏による [Adam-mini](https://github.com/zyushun/Adam-mini) の素晴らしい先行研究と実装に多くを学び、その上に構築しています。軽量かつ高性能な最適化器の礎を築いていただき、深く感謝申し上げます。
