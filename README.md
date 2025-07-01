@@ -24,9 +24,9 @@
 🤖 GitHub Copilot と人間の好奇心のコラボで誕生しました。
 
 それぞれ 1e-3 のLRで測定
-![Ref-AdamW-mini-ScheduleFree00](https://github.com/muooon/ref-adamw-mini-ScheduleFree/blob/old/main/step-test00.png?raw=true)
-![Ref-AdamW-mini-ScheduleFree01](https://github.com/muooon/ref-adamw-mini-ScheduleFree/blob/old/main/step-test01.png?raw=true)
-![Ref-AdamW-mini-ScheduleFree01](https://github.com/muooon/ref-adamw-mini-ScheduleFree/blob/old/main/step-test02.png?raw=true)
+![Ref-AdamW-mini-ScheduleFree00](https://github.com/muooon/ref-adamw-mini-ScheduleFree/blob/old/step-test00.png?raw=true)
+![Ref-AdamW-mini-ScheduleFree01](https://github.com/muooon/ref-adamw-mini-ScheduleFree/blob/old/step-test01.png?raw=true)
+![Ref-AdamW-mini-ScheduleFree01](https://github.com/muooon/ref-adamw-mini-ScheduleFree/blob/old/step-test02.png?raw=true)
 
 ## 謝辞(Acknowledgments)
 
