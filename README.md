@@ -25,6 +25,7 @@
 
 ![Ref-AdamW-mini-ScheduleFree00](https://github.com/muooon/ref-adamw-mini-ScheduleFree/blob/main/step-test00.png?raw=true)
 ![Ref-AdamW-mini-ScheduleFree01](https://github.com/muooon/ref-adamw-mini-ScheduleFree/blob/main/step-test01.png?raw=true)
+![Ref-AdamW-mini-ScheduleFree01](https://github.com/muooon/ref-adamw-mini-ScheduleFree/blob/main/step-test02.png?raw=true)
 
 ## 謝辞(Acknowledgments)
 
